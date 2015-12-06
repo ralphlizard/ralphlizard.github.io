@@ -1,21 +1,21 @@
 <ul id="navbar">
     <li>
-        <a href="About.php">
+        <a href="About.html">
             <div id=$about>About</div>
         </a>
     </li>
     <li>
-        <a href="index.php">
+        <a href="index.html">
             <div id=$index>Portfolio</div>
         </a>
     </li>
     <li>
-        <a href="Sketches.php">
+        <a href="Sketches.html">
             <div id=$sketches>Sketches</div>
         </a>
     </li>
     <li>
-        <a href="Resume.php">
+        <a href="Resume.html">
             <div id=$resume>Resum&eacute;</div>
         </a>
     </li>
