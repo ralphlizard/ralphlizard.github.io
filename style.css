@@ -1,0 +1,250 @@
+body {
+	background-color: #F2F2F2;
+	min-width: 500px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	width: 100%;
+	height: 60px;
+	max-width: 1200px;
+	margin: auto;	
+	/* fallback */
+	background-color: #FFFFFF;
+
+}
+
+/* home button */
+#home div {
+	display: inline-block;
+	padding: 15px 3px 3px 20px;
+
+	color: black;
+	text-decoration: none;	
+	text-transform: uppercase;
+	font-size: 23px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-family: "Trebuchet MS",Arial,sans-serif;
+}
+
+/* home button different font */
+#home span {
+	text-decoration: none;
+	color: #7A7A7A;
+	font-weight: bold;
+	font-size: 15px;	
+}
+
+/* keep home aligned with content */
+#home_constraint {
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+}
+
+ul {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+#home_nav {
+	display: inline-table;
+}
+
+#navbar li {
+	display: inline-block;
+}
+
+/* navbar link */
+ul a {
+	text-decoration: none;
+	min-width: 100px;
+	display: block;
+	margin: 0px 10px 0px 10px;
+}
+
+/* navbar clickable area */
+ul div {
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	font-size: 1em;
+	color: #9E9E9E;
+	text-align: center;
+	min-width: 100px;
+	padding: 5px;
+}
+
+/* hovering over clickable area */
+ul div:hover {
+	font-family: "Trebuchet MS",Arial,sans-serif;
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	min-width: 100px;
+	padding: 5px;
+
+	background-color: #B7B7B7;
+}
+
+/* current page on navbar */
+ul #current {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	min-width: 100px;
+	padding: 5px;	
+
+	background-color: #B7B7B7;
+}
+
+/* contents of front page */
+#home_content {
+	text-align: center;
+}
+
+/* contents of current page */
+#content {
+	width: 100%;
+	height: 100%;
+	max-width: 1200px;
+	margin: auto;
+	background-color: white;
+	text-align: center;	
+}
+
+/* grid of images */
+#grid {
+	list-style-type: none;
+	text-align: center;
+	padding: 10px 0px 20px 0px;
+}
+
+/* image block (will include description) */
+#grid li {
+	display: inline-block;
+	margin: 2%;
+	width: 25%;
+	height: 25%;
+	min-width: 200px;
+}
+
+/* image itself */
+#grid img {
+	width: 100%;
+	height: 100%;
+}
+
+#article {
+	display: block;
+	text-align: center;
+	padding: 20px;
+}
+
+#article_header {
+	padding: 35px 0 0 9.5%;
+}
+
+#article a {
+	text-align: left;
+/*	margin: 10px 23% 0 23%; */
+	display: inline-block;
+}
+
+#article p {
+	text-align: left;
+	padding: 10px 23% 10px 23%;
+	line-height: 22px;
+	display: block;
+}
+
+#article img {
+	width: 100%;
+	max-width: 800px;
+	padding: 10px 0 10px 0;
+}
+
+#article iframe {
+	width: 100%;
+	max-width: 800px;
+}
+
+#article #evolution {
+	width: 100%;
+	max-width: 628px;
+}
+
+/* page title */
+#content h1 {
+	font-family: Arial,sans-serif;
+	font-size: 1.3em;
+	color: black;
+	margin: auto;
+	font-weight: normal;
+	text-align: left;
+}
+
+/* page subtitle */
+#content h2 {
+	font-family: Arial,sans-serif;
+	font-size: 1em;
+	color: #9E9E9E;
+	margin: auto;
+	font-weight: normal;
+	text-align: left;
+}
+
+/* page font */
+#content p {
+	font-family: Arial,sans-serif;
+	font-size: .85em;
+	color: black;
+	margin: auto;
+}
+
+#content p span {
+	font-family: Arial,sans-serif;
+	font-size: .8em;
+	color: #9E9E9E;
+	margin: auto;
+}
+
+/* resume embed */
+#content embed {
+	padding: 30px 0 30px 0;
+	width: 100%;
+	max-width: 900px;
+	height: 1170px;
+}
+
+#bio {
+	background-color: white;
+	margin: auto;
+	max-width: 950px;
+	padding: 5%;
+	width: 80%;
+	overflow: auto;
+}
+
+#bio_article {
+	max-width: 420px;
+	margin: 20px 4% 0 5%;
+}
+
+#bio img {
+	margin: 10px 0 30px 0;
+}
+
+#bio_article p {
+	padding: 10px 0 10px 0;
+	line-height: 22px;
+}
+
+#footer {
+    padding-bottom: 1px;
+    position: fixed;
+    bottom: 0;
+}
