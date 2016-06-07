@@ -197,6 +197,22 @@ ul #current {
 	text-align: left;
 }
 
+/* code font */
+#content code {
+	padding: 10px 27% 10px 27%;
+	color: black;
+	margin: auto; 
+	text-align: left;
+}
+
+/* code font */
+#content pre {
+	padding: 10px 27% 10px 27%;
+	color: black;
+	margin: auto; 
+	text-align: left;
+}
+
 /* page font */
 #content p {
 	font-family: Arial,sans-serif;
